@@ -14,5 +14,21 @@ header h1 {
     background-color: #2d3a45;
     color: white;
     text-transform: uppercase;
-    font-size: 1.35em;
+    font-size: 1.15em;
+}
+
+header h3,
+header p {
+    text-align: center;
+}
+
+header h3 {
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+header p {
+    width: 90%;
+    margin: 0 auto;
+    color: darkgrey;
 }
