@@ -24,11 +24,16 @@ header p {
 
 header h3 {
     font-weight: bold;
-    font-size: 1.15em;
+    font-size: 1.35em;
+    margin: 0;
+    padding: 25px 0 10px;
 }
 
 header p {
     width: 90%;
     margin: 0 auto;
     color: darkgrey;
+    padding-bottom: 40px;
+    border-bottom: 4px solid black;
+    font-size: 1.05em;
 }
