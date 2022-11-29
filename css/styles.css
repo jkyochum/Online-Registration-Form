@@ -2,11 +2,6 @@ html {
     background-color: rgb(252, 252, 252);
 }
 
-main {
-    width: 95%;
-    margin: auto;
-}
-
 header h1 {
     margin: 0 auto;
     text-align: center;
@@ -33,7 +28,32 @@ header p {
     width: 90%;
     margin: 0 auto;
     color: darkgrey;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
     border-bottom: 4px solid black;
     font-size: 1.05em;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+main section {
+    margin-top: 5px;
+}
+
+form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+form fieldset legend {
+    border-top: 2.5px solid black;
+    padding-top: 24px;
+    width: 100%;
+}
+
+form fieldset label {
+    display: block;
 }
