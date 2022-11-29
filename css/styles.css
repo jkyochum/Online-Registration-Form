@@ -39,7 +39,7 @@ main {
 }
 
 main section {
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 form fieldset {
@@ -50,10 +50,16 @@ form fieldset {
 
 form fieldset legend {
     border-top: 2.5px solid black;
-    padding-top: 24px;
+    padding: 22px 0 4px;
     width: 100%;
+    font-weight: bold;
+    font-size: 1.35em;
 }
 
 form fieldset label {
     display: block;
+    padding-bottom: 8px;
+    color: #848484;
+    padding-top: 16px;
+    font-size: 1.05em;
 }
