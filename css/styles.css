@@ -68,7 +68,7 @@ form fieldset label {
 form fieldset input {
     width: 100%;
     text-align: right;
-    padding: 10px;
+    padding: 10px 0;
     border: none;
     background-color: #ebebeb;
 }
