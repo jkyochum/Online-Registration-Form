@@ -77,6 +77,12 @@ form fieldset select {
     border-radius: 4px;
 }
 
+form fieldset input::placeholder,
+select option[value=""],
+form fieldset:nth-of-type(2) p {
+    color: darkgrey;
+}
+
 form fieldset input::placeholder {
     color: darkgrey;
     font-style: italic;
@@ -101,6 +107,7 @@ form fieldset:nth-of-type(2) label {
     display: inline-block;
     width: 250px;
     padding-top: 0;
+    font-size: .95em;
 }
 
 input[type="checkbox"],
@@ -109,4 +116,8 @@ input[type="radio"] {
     vertical-align: middle;
     position: relative;
     bottom: 1.5px;
+}
+
+form fieldset:nth-of-type(2) label[for="other-topics"] {
+    padding-top: 18px;
 }
