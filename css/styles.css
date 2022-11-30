@@ -92,3 +92,14 @@ form fieldset:nth-of-type(1) input:last-child {
 form fieldset:nth-of-type(1) {
     padding-bottom: 30px;
 }
+
+form fieldset:nth-of-type(2) label {
+    display: inline-block;
+    width: 250px;
+    padding-top: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: 20px;
+}
