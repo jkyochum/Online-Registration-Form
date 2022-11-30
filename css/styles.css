@@ -69,7 +69,8 @@ form fieldset label {
 }
 
 form fieldset input,
-form fieldset select {
+form fieldset select,
+textarea {
     width: 100%;
     padding: 14.5px 0;
     border: none;
@@ -115,9 +116,14 @@ input[type="radio"] {
     width: 20px;
     vertical-align: middle;
     position: relative;
-    bottom: 1.5px;
+    bottom: 1px;
 }
 
 form fieldset:nth-of-type(2) label[for="other-topics"] {
     padding-top: 18px;
+}
+
+textarea {
+    height: 65px;
+    resize: none;
 }
