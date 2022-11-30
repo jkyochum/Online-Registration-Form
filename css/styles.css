@@ -1,5 +1,6 @@
 html {
     background-color: rgb(252, 252, 252);
+    box-sizing: border-box;
 }
 
 header h1 {
@@ -62,4 +63,18 @@ form fieldset label {
     color: #848484;
     padding-top: 16px;
     font-size: 1.05em;
+}
+
+form fieldset input {
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    background-color: #ebebeb;
+}
+
+form fieldset input::placeholder {
+    color: darkgrey;
+    font-style: italic;
+    font-size: .8em;
 }
