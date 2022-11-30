@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html {
@@ -108,5 +108,5 @@ input[type="radio"] {
     width: 20px;
     vertical-align: middle;
     position: relative;
-    bottom: 1px;
+    bottom: 1.5px;
 }
