@@ -68,7 +68,7 @@ form fieldset label {
 form fieldset input,
 form fieldset select {
     width: 100%;
-    padding: 12.5px 0;
+    padding: 14.5px 0;
     border: none;
     background-color: #ebebeb;
     border-radius: 4px;
@@ -78,8 +78,7 @@ form fieldset input {
     text-align: right;
 }
 
-form fieldset input::placeholder,
-form fieldset select option:first-child {
+form fieldset input::placeholder {
     color: darkgrey;
     font-style: italic;
     font-size: .8em;
