@@ -68,13 +68,15 @@ form fieldset label {
 form fieldset input {
     width: 100%;
     text-align: right;
-    padding: 10px 0;
+    padding: 12.5px 0;
     border: none;
     background-color: #ebebeb;
+    border-radius: 4px;
 }
 
 form fieldset input::placeholder {
     color: darkgrey;
     font-style: italic;
     font-size: .8em;
+    padding-right: 20px;
 }
