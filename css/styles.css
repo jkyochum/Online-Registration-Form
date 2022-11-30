@@ -78,7 +78,8 @@ form fieldset input {
     text-align: right;
 }
 
-form fieldset input::placeholder {
+form fieldset input::placeholder,
+form fieldset select option:first-child {
     color: darkgrey;
     font-style: italic;
     font-size: .8em;
