@@ -65,13 +65,17 @@ form fieldset label {
     font-size: 1.05em;
 }
 
-form fieldset input {
+form fieldset input,
+form fieldset select {
     width: 100%;
-    text-align: right;
     padding: 12.5px 0;
     border: none;
     background-color: #ebebeb;
     border-radius: 4px;
+}
+
+form fieldset input {
+    text-align: right;
 }
 
 form fieldset input::placeholder {
