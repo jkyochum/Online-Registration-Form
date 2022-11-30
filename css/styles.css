@@ -62,7 +62,7 @@ form fieldset legend {
 
 form fieldset label {
     display: block;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     color: #848484;
     padding-top: 16px;
     font-size: 1.05em;
@@ -80,20 +80,20 @@ textarea {
 
 form fieldset input::placeholder,
 select option[value=""],
-form fieldset:nth-of-type(2) p {
+form fieldset:nth-of-type(2) p,
+footer {
     color: darkgrey;
+}
+
+form fieldset input::placeholder,
+footer {
+    font-style: italic;
 }
 
 form fieldset input::placeholder {
-    color: darkgrey;
-    font-style: italic;
     font-size: .8em;
     padding-right: 20px;
     text-align: right;
-}
-
-select option[value=""] {
-    color: darkgrey;
 }
 
 form fieldset:nth-of-type(1) input:last-child {
@@ -126,4 +126,26 @@ form fieldset:nth-of-type(2) label[for="other-topics"] {
 textarea {
     height: 65px;
     resize: none;
+    margin-bottom: 25px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 17px 0;
+    font-size: 1.25em;
+    background-color: #50c0b5;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px 0 15px;
 }
