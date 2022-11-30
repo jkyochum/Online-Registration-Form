@@ -1,6 +1,5 @@
 html {
     background-color: rgb(252, 252, 252);
-    box-sizing: border-box;
 }
 
 header h1 {
@@ -67,15 +66,11 @@ form fieldset label {
 
 form fieldset input,
 form fieldset select {
-    width: 95%;
+    width: 100%;
     padding: 14.5px 0;
     border: none;
     background-color: #ebebeb;
     border-radius: 4px;
-}
-
-form fieldset input {
-    padding-left: 15px;
 }
 
 form fieldset input::placeholder {
@@ -86,7 +81,6 @@ form fieldset input::placeholder {
     text-align: right;
 }
 
-select:nth-of-type(1) {
+select option[value=""] {
     color: darkgrey;
-    padding-left: 5%;
 }
