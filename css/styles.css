@@ -67,7 +67,7 @@ form fieldset label {
 
 form fieldset input,
 form fieldset select {
-    width: 100%;
+    width: 95%;
     padding: 14.5px 0;
     border: none;
     background-color: #ebebeb;
@@ -75,7 +75,7 @@ form fieldset select {
 }
 
 form fieldset input {
-    text-align: right;
+    padding-left: 15px;
 }
 
 form fieldset input::placeholder {
@@ -83,4 +83,10 @@ form fieldset input::placeholder {
     font-style: italic;
     font-size: .8em;
     padding-right: 20px;
+    text-align: right;
+}
+
+select:nth-of-type(1) {
+    color: darkgrey;
+    padding-left: 5%;
 }
