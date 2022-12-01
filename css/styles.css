@@ -54,7 +54,7 @@ form fieldset {
 
 form fieldset legend {
     border-top: 2.5px solid black;
-    padding: 22px 0 4px;
+    padding: 25px 0 7px;
     width: 100%;
     font-weight: bold;
     font-size: 1.12em;
@@ -74,6 +74,13 @@ form fieldset label {
 
 form fieldset input,
 form fieldset select,
+textarea,
+input[type="submit"] {
+    outline-color: #1d5585;
+}
+
+form fieldset input,
+form fieldset select,
 textarea {
     width: 100%;
     padding: 14.5px 0;
@@ -82,10 +89,20 @@ textarea {
     border-radius: 4px;
 }
 
+form fieldset select {
+    padding-left: 10px;
+    font-size: .85em;
+}
+
 form fieldset input::placeholder,
+form fieldset select,
 select option[value=""],
 footer {
     color: darkgrey;
+}
+
+select option {
+    color: black;
 }
 
 form fieldset input::placeholder,
