@@ -147,7 +147,7 @@ form fieldset:nth-of-type(2) label[for="other-topics"] {
 }
 
 textarea {
-    height: 65px;
+    height: 93px;
     resize: none;
     margin-bottom: 25px;
 }
