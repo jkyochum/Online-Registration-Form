@@ -96,6 +96,13 @@ textarea {
     border-radius: 4px;
 }
 
+form fieldset input:focus,
+form fieldset select:focus,
+textarea:focus {
+    background-color: #fff;
+    transition: background-color 1s;
+}
+
 form fieldset select {
     padding-left: 10px;
     font-size: .85em;
