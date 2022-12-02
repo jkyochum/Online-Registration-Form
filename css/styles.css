@@ -97,6 +97,7 @@ form fieldset select {
 }
 
 form fieldset input::placeholder,
+form fieldset textarea::placeholder,
 form fieldset select,
 select option[value=""],
 footer {
