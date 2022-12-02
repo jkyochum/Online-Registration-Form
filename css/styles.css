@@ -59,6 +59,12 @@ form fieldset {
     margin: 0;
 }
 
+.flex-top,
+.flex-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
 form fieldset legend {
     border-top: 2.5px solid black;
     padding: 25px 0 7px;
@@ -128,6 +134,7 @@ footer {
 form fieldset input::placeholder {
     font-size: .7em;
     text-align: right;
+    padding-right: 5px;
 }
 
 form fieldset:nth-of-type(1) input:last-child {
