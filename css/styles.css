@@ -8,6 +8,10 @@ html {
     font-family: 'Merriweather', serif;
 }
 
+body {
+    background-color: #d2b48c1a;
+}
+
 header h1 {
     margin: 0 auto;
     text-align: center;
@@ -42,6 +46,7 @@ main {
     max-width: 500px;
     margin: auto;
     border-top: 4px solid black;
+    padding-top: 3px;
 }
 
 main section {
@@ -87,7 +92,7 @@ textarea {
     width: 100%;
     padding: 14.5px 15px;
     border: none;
-    background-color: #ebebeb;
+    background-color: #6f6f6f1a;
     border-radius: 4px;
 }
 
