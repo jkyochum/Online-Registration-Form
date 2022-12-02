@@ -39,6 +39,7 @@ header p {
 
 main {
     width: 90%;
+    max-width: 500px;
     margin: auto;
     border-top: 4px solid black;
 }
@@ -117,7 +118,8 @@ form fieldset input::placeholder {
 }
 
 form fieldset:nth-of-type(1) input:last-child {
-    width: 50%;
+    width: 144px;
+    /*(50%)*/
 }
 
 form fieldset:nth-of-type(1) {
@@ -126,7 +128,7 @@ form fieldset:nth-of-type(1) {
 
 form fieldset:nth-of-type(2) label {
     display: inline-block;
-    width: 250px;
+    width: calc(100% - 24px);
     padding: 0 0 15px;
 }
 
@@ -179,18 +181,24 @@ footer p {
 @media screen and (min-width: 768px) {
 
     header h1 {
-        padding: 20px 0;
+        padding: 15px 0;
         font-weight: normal;
         font-size: 1em;
-        margin-bottom: 28px;
+        margin-bottom: 25px;
     }
 
     header p {
         font-size: .75em;
+        padding-bottom: 38px;
     }
 
     main {
         width: 65%;
+        max-width: 600px;
+    }
+
+    form fieldset legend {
+        padding: 35px 0 20px;
     }
 
     form fieldset label {
@@ -208,6 +216,28 @@ footer p {
     form fieldset:nth-of-type(1) input:last-child {
         width: 159.744px;
         /*(32%)*/
+    }
+
+    form fieldset:nth-of-type(2) p:first-child {
+        margin: 0 0 22px;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+        margin: 0 5px 0 0;
+
+    }
+
+    form fieldset:nth-of-type(2) label {
+        width: calc(100% - 29px);
+    }
+
+    input[type="submit"] {
+        font-weight: normal;
+    }
+
+    footer {
+        padding-top: 22px;
     }
 
 }
