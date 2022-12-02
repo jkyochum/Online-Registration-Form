@@ -185,4 +185,12 @@ footer p {
         margin-bottom: 28px;
     }
 
+    header p {
+        font-size: .75em;
+    }
+
+    main {
+        width: 65%;
+    }
+
 }
