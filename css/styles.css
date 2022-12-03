@@ -73,6 +73,23 @@ form fieldset legend {
     font-size: 1.12em;
 }
 
+.flex,
+.flex-check,
+.flex-radio,
+.flex-topics {
+    display: flex;
+}
+
+.flex,
+.flex-topics {
+    flex-direction: column;
+}
+
+.flex-check,
+.flex-radio {
+    flex-direction: row;
+}
+
 form fieldset label,
 form fieldset:nth-of-type(2) p {
     color: #848484;
@@ -137,9 +154,8 @@ form fieldset input::placeholder {
     padding-right: 5px;
 }
 
-form fieldset:nth-of-type(1) input:last-child {
+form fieldset div:last-child input {
     width: 144px;
-    /*(50%)*/
 }
 
 form fieldset:nth-of-type(1) {
@@ -154,7 +170,7 @@ form fieldset:nth-of-type(2) label {
 
 input[type="checkbox"],
 input[type="radio"] {
-    width: 20px;
+    width: 12px;
     vertical-align: middle;
 }
 
